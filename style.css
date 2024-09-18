@@ -369,6 +369,8 @@ ion-icon {
         display: flex;
         justify-content: start;
         padding: 10px;
+        width: 100%;
+        height: 100%;
     }
 
     .slider-track {
@@ -407,12 +409,13 @@ ion-icon {
     @media (max-width: 635px) {
         /* Adjust the container padding */
         .container, .container-about, .container-card {
+            margin-top: 100px;
             padding: 10px;
         }
     
         /* Make the main headings smaller */
         h1 {
-            font-size: 24px;
+            font-size: 20px;
         }
     
         /* Make section titles smaller */
@@ -449,6 +452,11 @@ ion-icon {
         .slide {
             flex: 0 0 80px; /* Set a fixed width for each slide */
             margin: 5px;
+        }
+
+        .slider {
+            width: 100%;
+            height: 100%;
         }
     
         /* Style the cards to stack vertically */
